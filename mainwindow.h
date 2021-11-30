@@ -6,6 +6,9 @@
 #include <QDebug>
 #include <QString>
 #include <QSqlQuery>
+#include <QGridLayout>
+#include <QScroller>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -53,6 +56,8 @@ private slots:
     void on_toolButton_4_clicked();
 
     void on_toolButton_5_clicked();
+
+    void cald();
 
 private:
     Ui::MainWindow *ui;
